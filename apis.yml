@@ -1,7 +1,12 @@
 aid: this
 name: THIS
-description: THIS is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: THIS™ is a UK plant-based food company making high-protein vegan meat alternatives
+  — including meat-free chicken, bacon, sausages, burgers and mince — sold through major British
+  supermarkets such as Tesco, Sainsbury's, Waitrose, Ocado, Morrisons, Asda and Co-op. Founded
+  in 2019 and backed by Seedcamp, THIS™ is a consumer packaged goods (CPG) brand focused on
+  absurdly tasty plant-based food rather than a developer platform. It operates a marketing and
+  recipe website but publishes no public API, developer documentation, or SDK at the time of
+  this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/this/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,29 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://this-co.lon1.digitaloceanspaces.com/android_chrome_512x512_4b87c6cd1d.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Food
+- Plant-Based
+- Vegan
+- Consumer Packaged Goods
+- Food & Beverage
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/this-domain-security.yml
 - type: Website
-  url: http://this.co
+  url: https://www.this.co
+- type: About
+  url: https://www.this.co/about
+- type: Careers
+  url: https://www.this.co/careers
+- type: Contact
+  url: https://www.this.co/contact
+- type: PrivacyPolicy
+  url: https://www.this.co/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
